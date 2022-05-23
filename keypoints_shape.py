@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 img1 = cv2.imread('stop2.png')
-img2 = cv2.imread('face.png')
+img2 = cv2.imread('stop1.png')
 
 img1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
 img2 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
